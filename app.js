@@ -564,3 +564,4 @@ function restartSurvey() {
 
 init();
 
+
