@@ -24,7 +24,6 @@ const SURVEY_CONFIG = {
                 { id: 7, name: "Modelo 7", image: "imagenes/model7.png" },
                 { id: 8, name: "Modelo 8", image: "imagenes/model8.png" },
                 { id: 9, name: "Modelo 9", image: "imagenes/model9.png" },
-                { id: 10, name: "Modelo 10", image: "imagenes/model10.png" }
             ]
         },
         // Pregunta 3 - 3 opciones
@@ -557,3 +556,4 @@ function restartSurvey() {
 }
 
 init();
+
