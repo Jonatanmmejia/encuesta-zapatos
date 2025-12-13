@@ -323,10 +323,10 @@ function completeSurvey() {
     // ========================================
     // IMPORTANTE: Reemplaza 'TU_URL_DE_APPS_SCRIPT_AQUI' con la URL que obtienes
     // al publicar tu Apps Script como Web App
-    const GOOGLE_SHEETS_URL = 'TU_URL_DE_APPS_SCRIPT_AQUI';
+    const GOOGLE_SHEETS_URL = 'https://script.google.com/macros/s/AKfycbzfy_4XnrKinfDs8tj1r49qEeq7IcfRKwTgkPFqk5Mi8Yn9TtDmLGZOI0gatAveLLa6Pw/exec';
 
     // Solo enviar si la URL está configurada
-    if (GOOGLE_SHEETS_URL !== 'TU_URL_DE_APPS_SCRIPT_AQUI') {
+    if (GOOGLE_SHEETS_URL !== 'https://script.google.com/macros/s/AKfycbzfy_4XnrKinfDs8tj1r49qEeq7IcfRKwTgkPFqk5Mi8Yn9TtDmLGZOI0gatAveLLa6Pw/exec') {
         sendToGoogleSheets(vote, GOOGLE_SHEETS_URL);
     }
     // ========================================
@@ -563,3 +563,4 @@ function restartSurvey() {
 }
 
 init();
+
