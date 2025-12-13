@@ -146,8 +146,8 @@ const el = {
 
 // Inicialización
 function init() {
-    loadVotesFromStorage();
-    updateTotalVotes();
+    // loadVotesFromStorage(); // Desactivado
+    // updateTotalVotes();     // Desactivado
     setupEventListeners();
 }
 
@@ -155,7 +155,7 @@ function setupEventListeners() {
     el.startSurvey.addEventListener('click', startSurvey);
     el.nextButton.addEventListener('click', nextQuestion);
     el.prevButton.addEventListener('click', previousQuestion);
-    el.exportExcel.addEventListener('click', exportToExcel);
+    // el.exportExcel.addEventListener('click', exportToExcel);
     el.restartSurvey.addEventListener('click', restartSurvey);
     el.adminToggle.addEventListener('click', () => {
         el.adminPanel.classList.toggle('hidden');
